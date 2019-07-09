@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title> Js Code Editor </title>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="topBar">
+
+        <div class="mainLogo">
+            JS Code Editor
+        </div>
+
+        <div class="topButtonPane">
+            <div class="toggle" id="html"> HTML</div>
+            <div class="toggle" id="css"> CSS</div>
+            <div class="toggle" id="js">JavaScript</div>
+            <div class="toggle" id="output">Output</div>
+        </div>
+
+        <div id="panesContent">
+            <textarea class="textarea" id="textbox"> Hello</textarea>
+            <textarea class="textarea" id="cssBox"> </textarea>
+            <textarea class="textarea" id="jsBox"> </textarea>
+            <iframe src="" class="panel"></iframe>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/code.js"></script>
+</body>
+
+</html>

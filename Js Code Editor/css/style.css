@@ -1,0 +1,67 @@
+body{
+font-family: system, "Helvetica Neue", Helvetica, Arial;
+padding:0;
+margin: 0;
+}
+
+#topBar{
+  width: 100%;
+  padding: 5px;
+  background-color:#EEE;
+  height: 40px;
+}
+
+.topButtonPane{
+  width: 240px;
+  margin: 0 auto;
+}
+
+.toggle{
+float: left;
+margin-right: 3px;
+padding: 5px;
+border: 1px solid grey;
+font-size: 80%;
+}
+
+.buttonHover{
+  background-color:grey;
+  }
+
+.mainLogo{
+  font-size: 140%;
+  float: left;
+  font-weight: bold;
+}
+
+.activeClass{
+  background-color: lightblue;
+}
+
+#html{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 4px;
+}
+
+#output{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 4px;
+}
+
+textarea{
+  width: 25%;
+  resize: none;
+  float: left;
+}
+
+#panesContent{
+  margin-top: 45px;
+}
+
+.panel{
+  float: left;
+}
+
+.hidden{
+  display: none;
+}
